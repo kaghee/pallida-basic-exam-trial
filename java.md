@@ -33,4 +33,15 @@ The application is accepted if:
 
 ###  What is the difference between id and class in CSS? [2p]
 #### Your answer: 
-[add your answer here]
+In html/CSS if you want to target multiple elements at once, you can create classes or id's. The difference is that id's are unique, meaning you'll only have a single element with a specific id, whereas classes usually contain multiple elements of the same sort.
+
+An example would be a list, where you format every even numbered line one way (e.g. yellow background) and every odd numbered line another way (e.g. orange background). If you want to color e.g. line number seven differently than all the others, you could create an id for that line only.
+
+In CSS you have to select classes with a dot, and id's with a #.
+.odd {
+  background-color: orange;
+}
+
+#seventh {
+  color: red;
+}
