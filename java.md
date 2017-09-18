@@ -39,15 +39,10 @@ An example would be a list, where you format every even numbered line one way (e
 
 In CSS you have to select classes with a dot, and id's with a #.
 
-.odd {
-
-...background-color: orange;
-  
+.odd {  
+...background-color: orange;  
 }
 
-
-#seventh {
-
-...color: red;
-  
+#seventh {  
+...color: red;  
 }
