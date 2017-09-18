@@ -41,13 +41,13 @@ In CSS you have to select classes with a dot, and id's with a #.
 
 .odd {
 
-  background-color: orange;
+...background-color: orange;
   
 }
 
 
 #seventh {
 
-  color: red;
+...color: red;
   
 }
